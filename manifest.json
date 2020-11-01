@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "HBO Spacebar Play and Pause",
+  "version": "1.0.0",
+  "description": "Bind play and pause to spacebar on HBO Nordic",
+  "author": "David Öhlin",
+  "permissions": ["activeTab", "https://*.hbonordic.com/*"],
+  "web_accessible_resources": ["js/main.js"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.hbonordic.com/*"],
+      "js": ["js/content.js"]
+    }
+  ],
+  "icons": {
+    "128": "images/icon128.png"
+  }
+}

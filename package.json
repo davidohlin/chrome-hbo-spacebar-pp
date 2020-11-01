@@ -1,0 +1,9 @@
+{
+	"name": "chrome-hbo-spacebar",
+	"version": "1.0.0",
+	"description": "Bind play and pause to spacebar on HBO Nordic",
+	"main": "index.js",
+	"repository": "https://github.com/davidohlin/chrome-hbo-spacebar",
+	"author": "David Öhlin",
+	"license": "MIT"
+}
